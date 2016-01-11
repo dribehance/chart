@@ -1,0 +1,91 @@
+body {
+    font-family: "微软雅黑";
+}
+
+.chart {
+    display: block;
+    position: relative;
+    padding: 16px 16px 16px 100px;
+    overflow: hidden;
+    min-height: 250px;
+}
+
+.chart .labels {
+    position: absolute;
+    width: 100px;
+    left: 0;
+    top: 16px;
+    text-align: center;
+}
+
+.chart .labels span {
+    display: block;
+    padding: 6px 0;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-top: 1px solid red;
+}
+.chart .labels span:hover,.chart .figure .figure-tab span:hover,.figure-pagination span.next,.figure-pagination span.prev {
+    cursor: pointer;
+}
+.chart .labels span:last-child {
+    border-bottom: 1px solid red;
+}
+.chart .labels span.active {
+    color: white;
+    background-color: red;
+}
+
+.chart .radio-group {
+    left: 105px;
+}
+
+.chart .figure .figure-tab {
+    width: 200px;
+    margin: auto auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.chart .figure .figure-tab span {
+    float: left;
+    padding: 4px 0;
+    width: 33.33%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    text-align: center;
+}
+.chart .figure .figure-tab span:last-child {
+    border-right: 1px solid red;
+}
+.chart .figure .figure-tab span.active {
+    color: white;
+    background-color: red;
+}
+
+.figure-pagination {
+    text-align: center;
+}
+
+.figure-pagination span {
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.chart-1 {
+    padding: 16px 16px 16px 100px;
+}
+
+.chart-2 {
+    padding: 16px 16px 16px 210px;
+}
+.chart-3 .figure {
+    float: left;
+    width: 50%;
+}
+span.active {
+    color: red;
+}

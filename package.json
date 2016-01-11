@@ -1,0 +1,19 @@
+{
+  "name": "chart",
+  "version": "1.0.0",
+  "description": "chart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "highchart",
+    "echart"
+  ],
+  "author": "dribehance",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.3.1"
+  }
+}
